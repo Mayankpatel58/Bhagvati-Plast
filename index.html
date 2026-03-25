@@ -1,0 +1,1946 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhagwati Plastic Process – Quality Plastic Granules</title>
+    <meta
+      name="description"
+      content="Bhagwati Plastic Process – Quality Plastic Granules You Can Trust. PP Natural, Brown, Milky Granules. Based in Ahmedabad, Gujarat."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ===== CSS VARIABLES ===== */
+      :root {
+        --blue: #1a3f6f;
+        --blue-mid: #1e5fa8;
+        --blue-light: #e8f1fb;
+        --green: #1e8c45;
+        --green-mid: #27a854;
+        --green-light: #e6f7ec;
+        --white: #ffffff;
+        --off-white: #f5f7fa;
+        --text: #1a1f2e;
+        --text-soft: #5a6478;
+        --border: #dde4ef;
+        --shadow: 0 4px 24px rgba(26, 63, 111, 0.1);
+        --shadow-lg: 0 12px 40px rgba(26, 63, 111, 0.18);
+        --r: 14px;
+        --r-sm: 8px;
+        --font-head: "Syne", sans-serif;
+        --font-body: "DM Sans", sans-serif;
+        --transition: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* ===== RESET ===== */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: var(--font-body);
+        background: var(--white);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      button {
+        cursor: pointer;
+        font-family: var(--font-body);
+        border: none;
+        background: none;
+      }
+      ul {
+        list-style: none;
+      }
+
+      /* ===== UTILITY ===== */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 18px;
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+      }
+
+      /* ===== HEADER / NAV ===== */
+      header {
+        background: var(--blue);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 16px rgba(26, 63, 111, 0.25);
+      }
+      .nav-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 66px;
+        gap: 12px;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+      }
+      .logo-icon {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background: var(--green);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        flex-shrink: 0;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+      }
+      .logo-name {
+        font-family: var(--font-head);
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--white);
+        letter-spacing: -0.01em;
+      }
+      .logo-tag {
+        font-size: 0.65rem;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+      }
+
+      .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .nav-cta {
+        background: var(--green);
+        color: var(--white);
+        padding: 8px 16px;
+        border-radius: 100px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        transition:
+          background var(--transition),
+          transform var(--transition);
+        display: none;
+      }
+      .nav-cta:hover {
+        background: var(--green-mid);
+        transform: translateY(-1px);
+      }
+
+      .cart-btn {
+        position: relative;
+        background: rgba(255, 255, 255, 0.12);
+        border: 1.5px solid rgba(255, 255, 255, 0.22);
+        color: var(--white);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        transition: background var(--transition);
+      }
+      .cart-btn:hover {
+        background: rgba(255, 255, 255, 0.22);
+      }
+      .cart-badge {
+        position: absolute;
+        top: -4px;
+        right: -4px;
+        background: var(--green);
+        color: var(--white);
+        font-size: 0.6rem;
+        font-weight: 700;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid var(--blue);
+        transition: transform 0.2s;
+      }
+      .cart-badge.pop {
+        transform: scale(1.4);
+      }
+      .cart-badge.hidden {
+        display: none;
+      }
+
+      @media (min-width: 540px) {
+        .nav-cta {
+          display: inline-flex;
+        }
+      }
+
+      /* ===== HERO ===== */
+      .hero {
+        background: linear-gradient(
+          135deg,
+          var(--blue) 0%,
+          var(--blue-mid) 55%,
+          #2a7fc4 100%
+        );
+        padding: 52px 0 48px;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+      .hero-inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+      .hero-badge {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        color: rgba(255, 255, 255, 0.9);
+        padding: 5px 14px;
+        border-radius: 100px;
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+      }
+      .hero h1 {
+        font-family: var(--font-head);
+        font-size: clamp(1.7rem, 5vw, 2.8rem);
+        font-weight: 800;
+        color: var(--white);
+        line-height: 1.18;
+        letter-spacing: -0.02em;
+      }
+      .hero h1 span {
+        color: #7ee8a2;
+      }
+      .hero p {
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 0.97rem;
+        max-width: 480px;
+        line-height: 1.65;
+      }
+      .hero-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn-primary {
+        background: var(--green);
+        color: var(--white);
+        padding: 12px 26px;
+        border-radius: 100px;
+        font-weight: 600;
+        font-size: 0.92rem;
+        transition:
+          background var(--transition),
+          transform var(--transition),
+          box-shadow var(--transition);
+        box-shadow: 0 4px 16px rgba(30, 140, 69, 0.35);
+      }
+      .btn-primary:hover {
+        background: var(--green-mid);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(30, 140, 69, 0.4);
+      }
+      .btn-outline-white {
+        background: transparent;
+        color: var(--white);
+        border: 1.5px solid rgba(255, 255, 255, 0.45);
+        padding: 12px 26px;
+        border-radius: 100px;
+        font-weight: 600;
+        font-size: 0.92rem;
+        transition:
+          background var(--transition),
+          border-color var(--transition);
+      }
+      .btn-outline-white:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.7);
+      }
+
+      .hero-stats {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        padding-top: 8px;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+      }
+      .stat {
+        display: flex;
+        flex-direction: column;
+      }
+      .stat-num {
+        font-family: var(--font-head);
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: #7ee8a2;
+      }
+      .stat-lbl {
+        font-size: 0.72rem;
+        color: rgba(255, 255, 255, 0.62);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      /* ===== FILTERS ===== */
+      .filters-section {
+        padding: 28px 0 0;
+        background: var(--off-white);
+        border-bottom: 1px solid var(--border);
+      }
+      .filters-label {
+        font-size: 0.75rem;
+        color: var(--text-soft);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 10px;
+      }
+      .filter-btns {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        padding-bottom: 18px;
+      }
+      .filter-btn {
+        padding: 7px 18px;
+        border-radius: 100px;
+        border: 1.5px solid var(--border);
+        background: var(--white);
+        color: var(--text-soft);
+        font-size: 0.82rem;
+        font-weight: 600;
+        transition: all var(--transition);
+      }
+      .filter-btn:hover {
+        border-color: var(--blue-mid);
+        color: var(--blue-mid);
+      }
+      .filter-btn.active {
+        background: var(--blue);
+        border-color: var(--blue);
+        color: var(--white);
+        box-shadow: 0 2px 12px rgba(26, 63, 111, 0.22);
+      }
+
+      /* ===== PRODUCTS ===== */
+      .products-section {
+        padding: 36px 0 60px;
+        background: var(--off-white);
+      }
+      .section-head {
+        margin-bottom: 24px;
+      }
+      .section-head h2 {
+        font-family: var(--font-head);
+        font-size: 1.45rem;
+        font-weight: 700;
+        color: var(--blue);
+        letter-spacing: -0.02em;
+      }
+      .section-head p {
+        color: var(--text-soft);
+        font-size: 0.88rem;
+        margin-top: 4px;
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+      }
+      @media (max-width: 380px) {
+        .product-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .product-card {
+        background: var(--white);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+        transition:
+          transform var(--transition),
+          box-shadow var(--transition);
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--border);
+      }
+      .product-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .product-card.hidden {
+        display: none;
+      }
+
+      .product-img-wrap {
+        position: relative;
+        aspect-ratio: 4/3;
+        overflow: hidden;
+        background: var(--blue-light);
+      }
+      .product-img-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+      .product-card:hover .product-img-wrap img {
+        transform: scale(1.06);
+      }
+
+      .product-cat-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: var(--blue);
+        color: var(--white);
+        font-size: 0.65rem;
+        font-weight: 700;
+        padding: 3px 10px;
+        border-radius: 100px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .product-body {
+        padding: 18px 18px 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 6px;
+      }
+      .product-name {
+        font-family: var(--font-head);
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--text);
+        letter-spacing: -0.01em;
+        line-height: 1.3;
+      }
+      .product-desc {
+        font-size: 0.8rem;
+        color: var(--text-soft);
+        line-height: 1.55;
+        flex: 1;
+      }
+      .product-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 14px;
+        gap: 10px;
+      }
+      .product-price {
+        font-family: var(--font-head);
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--blue);
+        letter-spacing: -0.01em;
+      }
+      .product-price span {
+        font-size: 0.72rem;
+        font-weight: 500;
+        color: var(--text-soft);
+      }
+      .add-to-cart-btn {
+        background: var(--green);
+        color: var(--white);
+        padding: 9px 18px;
+        border-radius: 100px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        transition:
+          background var(--transition),
+          transform var(--transition);
+        white-space: nowrap;
+        box-shadow: 0 2px 10px rgba(30, 140, 69, 0.25);
+      }
+      .add-to-cart-btn:hover {
+        background: var(--green-mid);
+        transform: scale(1.04);
+      }
+      .add-to-cart-btn.added {
+        background: var(--blue);
+      }
+
+      /* ===== WHY US ===== */
+      .why-section {
+        padding: 52px 0;
+        background: var(--white);
+        border-top: 1px solid var(--border);
+      }
+      .why-section h2 {
+        font-family: var(--font-head);
+        font-size: 1.45rem;
+        font-weight: 700;
+        color: var(--blue);
+        text-align: center;
+        margin-bottom: 32px;
+      }
+      .why-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 18px;
+      }
+      .why-card {
+        background: var(--off-white);
+        border-radius: var(--r);
+        padding: 22px 18px;
+        text-align: center;
+        border: 1px solid var(--border);
+        transition: box-shadow var(--transition);
+      }
+      .why-card:hover {
+        box-shadow: var(--shadow);
+      }
+      .why-icon {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      .why-title {
+        font-family: var(--font-head);
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: var(--blue);
+        margin-bottom: 5px;
+      }
+      .why-text {
+        font-size: 0.78rem;
+        color: var(--text-soft);
+        line-height: 1.55;
+      }
+
+      /* ===== CONTACT ===== */
+      .contact-section {
+        padding: 52px 0;
+        background: linear-gradient(
+          135deg,
+          var(--blue) 0%,
+          var(--blue-mid) 100%
+        );
+      }
+      .contact-inner {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      @media (min-width: 700px) {
+        .contact-inner {
+          grid-template-columns: 1fr 1fr;
+          align-items: start;
+        }
+      }
+
+      .contact-info h2 {
+        font-family: var(--font-head);
+        font-size: 1.45rem;
+        font-weight: 700;
+        color: var(--white);
+        margin-bottom: 14px;
+      }
+      .contact-info p {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 0.9rem;
+        margin-bottom: 24px;
+        line-height: 1.6;
+      }
+      .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .c-icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        flex-shrink: 0;
+      }
+      .c-detail {
+        display: flex;
+        flex-direction: column;
+      }
+      .c-label {
+        font-size: 0.7rem;
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .c-value {
+        font-size: 0.9rem;
+        color: var(--white);
+        font-weight: 500;
+      }
+      .c-value a {
+        color: #7ee8a2;
+        text-decoration: underline;
+      }
+
+      .wa-card {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: var(--r);
+        padding: 20px;
+      }
+      .wa-card h3 {
+        font-family: var(--font-head);
+        color: var(--white);
+        font-size: 1rem;
+        margin-bottom: 6px;
+      }
+      .wa-card p {
+        font-size: 0.82rem;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 16px;
+      }
+      .wa-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #25d366;
+        color: var(--white);
+        padding: 11px 22px;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 0.88rem;
+        transition:
+          background var(--transition),
+          transform var(--transition);
+        box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+      }
+      .wa-btn:hover {
+        background: #1ebe5d;
+        transform: translateY(-2px);
+      }
+
+      /* ===== FOOTER ===== */
+      footer {
+        background: var(--text);
+        color: rgba(255, 255, 255, 0.6);
+        padding: 28px 0;
+        text-align: center;
+      }
+      footer p {
+        font-size: 0.8rem;
+        line-height: 1.7;
+      }
+      footer strong {
+        color: var(--white);
+      }
+
+      /* ===== FLOATING WHATSAPP ===== */
+      .wa-float {
+        position: fixed;
+        bottom: 24px;
+        left: 20px;
+        z-index: 200;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        background: #25d366;
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        box-shadow: 0 4px 18px rgba(37, 211, 102, 0.5);
+        transition:
+          transform var(--transition),
+          box-shadow var(--transition);
+        text-decoration: none;
+      }
+      .wa-float:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 28px rgba(37, 211, 102, 0.55);
+      }
+
+      /* ===== CART FAB ===== */
+      .cart-fab {
+        position: fixed;
+        bottom: 24px;
+        right: 20px;
+        z-index: 200;
+        background: var(--blue);
+        color: var(--white);
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        box-shadow: 0 6px 20px rgba(26, 63, 111, 0.4);
+        transition:
+          background var(--transition),
+          transform var(--transition);
+        border: none;
+        cursor: pointer;
+      }
+      .cart-fab:hover {
+        background: var(--blue-mid);
+        transform: scale(1.08);
+      }
+      .cart-fab-badge {
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        background: var(--green);
+        color: var(--white);
+        font-size: 0.65rem;
+        font-weight: 700;
+        min-width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid var(--white);
+        padding: 0 4px;
+      }
+      .cart-fab-badge.hidden {
+        display: none;
+      }
+
+      /* ===== CART DRAWER OVERLAY ===== */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(10, 14, 26, 0.55);
+        z-index: 300;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        backdrop-filter: blur(3px);
+      }
+      .overlay.open {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      /* ===== CART DRAWER ===== */
+      .cart-drawer {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 400;
+        width: min(420px, 100vw);
+        background: var(--white);
+        box-shadow: -8px 0 40px rgba(26, 63, 111, 0.18);
+        transform: translateX(100%);
+        transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        flex-direction: column;
+      }
+      .cart-drawer.open {
+        transform: translateX(0);
+      }
+
+      .cart-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 20px;
+        border-bottom: 1px solid var(--border);
+        background: var(--blue);
+      }
+      .cart-header h2 {
+        font-family: var(--font-head);
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--white);
+      }
+      .cart-close {
+        background: rgba(255, 255, 255, 0.15);
+        color: var(--white);
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        transition: background var(--transition);
+      }
+      .cart-close:hover {
+        background: rgba(255, 255, 255, 0.28);
+      }
+
+      .cart-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .cart-empty {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: var(--text-soft);
+        padding: 40px 20px;
+        text-align: center;
+      }
+      .cart-empty .empty-icon {
+        font-size: 3rem;
+        opacity: 0.5;
+      }
+      .cart-empty p {
+        font-size: 0.9rem;
+      }
+
+      .cart-item {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 12px;
+        align-items: center;
+        background: var(--off-white);
+        border-radius: var(--r-sm);
+        padding: 12px;
+        border: 1px solid var(--border);
+        animation: slideIn 0.25s ease;
+      }
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(-8px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      .ci-img {
+        width: 56px;
+        height: 56px;
+        border-radius: var(--r-sm);
+        object-fit: cover;
+        background: var(--blue-light);
+      }
+      .ci-info {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+      }
+      .ci-name {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text);
+        line-height: 1.3;
+      }
+      .ci-price-unit {
+        font-size: 0.72rem;
+        color: var(--text-soft);
+      }
+      .ci-subtotal {
+        font-size: 0.88rem;
+        font-weight: 700;
+        color: var(--green);
+        margin-top: 2px;
+      }
+      .ci-controls {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+      }
+      .qty-row {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .qty-btn {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: var(--white);
+        border: 1.5px solid var(--border);
+        color: var(--text);
+        font-size: 1rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all var(--transition);
+        line-height: 1;
+      }
+      .qty-btn:hover {
+        background: var(--blue);
+        border-color: var(--blue);
+        color: var(--white);
+      }
+      .qty-num {
+        font-size: 0.9rem;
+        font-weight: 700;
+        min-width: 22px;
+        text-align: center;
+      }
+      .remove-btn {
+        font-size: 0.7rem;
+        color: #c0392b;
+        font-weight: 600;
+        padding: 3px 8px;
+        border-radius: 4px;
+        transition: background var(--transition);
+      }
+      .remove-btn:hover {
+        background: #fdecea;
+      }
+
+      .cart-footer {
+        border-top: 1px solid var(--border);
+        padding: 16px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        background: var(--white);
+      }
+      .cart-total-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cart-total-label {
+        font-size: 0.9rem;
+        color: var(--text-soft);
+        font-weight: 500;
+      }
+      .cart-total-amount {
+        font-family: var(--font-head);
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: var(--blue);
+      }
+      .place-order-btn {
+        background: var(--green);
+        color: var(--white);
+        padding: 14px;
+        border-radius: var(--r-sm);
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+        transition:
+          background var(--transition),
+          transform var(--transition);
+        box-shadow: 0 4px 14px rgba(30, 140, 69, 0.3);
+      }
+      .place-order-btn:hover {
+        background: var(--green-mid);
+        transform: translateY(-1px);
+      }
+
+      /* ===== ORDER MODAL ===== */
+      .modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(10, 14, 26, 0.65);
+        z-index: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        backdrop-filter: blur(4px);
+      }
+      .modal-overlay.open {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      .modal {
+        background: var(--white);
+        border-radius: var(--r);
+        width: 100%;
+        max-width: 480px;
+        max-height: 90vh;
+        overflow-y: auto;
+        box-shadow: var(--shadow-lg);
+        transform: scale(0.94) translateY(10px);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .modal-overlay.open .modal {
+        transform: scale(1) translateY(0);
+      }
+
+      .modal-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 22px;
+        border-bottom: 1px solid var(--border);
+        background: var(--blue);
+        position: sticky;
+        top: 0;
+      }
+      .modal-head h2 {
+        font-family: var(--font-head);
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--white);
+      }
+      .modal-close {
+        background: rgba(255, 255, 255, 0.15);
+        color: var(--white);
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        transition: background var(--transition);
+      }
+      .modal-close:hover {
+        background: rgba(255, 255, 255, 0.28);
+      }
+
+      .modal-body {
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .order-summary-box {
+        background: var(--blue-light);
+        border-radius: var(--r-sm);
+        padding: 14px;
+        border: 1px solid #c5d9f1;
+      }
+      .osb-title {
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: var(--blue);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 8px;
+      }
+      .osb-items {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .osb-item {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.82rem;
+        color: var(--text);
+      }
+      .osb-item span:last-child {
+        font-weight: 600;
+      }
+      .osb-total {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        color: var(--blue);
+        padding-top: 8px;
+        margin-top: 6px;
+        border-top: 1px dashed #b0c8e8;
+        font-size: 0.9rem;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .form-group label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--text);
+      }
+      .form-group label .req {
+        color: #c0392b;
+      }
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        border: 1.5px solid var(--border);
+        border-radius: var(--r-sm);
+        padding: 11px 14px;
+        font-family: var(--font-body);
+        font-size: 0.88rem;
+        color: var(--text);
+        transition:
+          border-color var(--transition),
+          box-shadow var(--transition);
+        background: var(--white);
+      }
+      .form-group input:focus,
+      .form-group textarea:focus {
+        outline: none;
+        border-color: var(--blue-mid);
+        box-shadow: 0 0 0 3px rgba(30, 95, 168, 0.12);
+      }
+      .form-group textarea {
+        resize: vertical;
+        min-height: 80px;
+      }
+
+      .submit-order-btn {
+        background: var(--green);
+        color: var(--white);
+        padding: 14px;
+        border-radius: var(--r-sm);
+        font-size: 0.95rem;
+        font-weight: 700;
+        width: 100%;
+        transition:
+          background var(--transition),
+          transform var(--transition);
+        box-shadow: 0 4px 14px rgba(30, 140, 69, 0.3);
+      }
+      .submit-order-btn:hover:not(:disabled) {
+        background: var(--green-mid);
+        transform: translateY(-1px);
+      }
+      .submit-order-btn:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+      }
+
+      /* ===== SUCCESS ===== */
+      .success-screen {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 14px;
+        padding: 36px 22px;
+      }
+      .success-screen.show {
+        display: flex;
+      }
+      .success-icon {
+        font-size: 4rem;
+        animation: popIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      @keyframes popIn {
+        from {
+          transform: scale(0.5);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      .success-screen h2 {
+        font-family: var(--font-head);
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--green);
+      }
+      .success-screen p {
+        font-size: 0.88rem;
+        color: var(--text-soft);
+        line-height: 1.6;
+        max-width: 340px;
+      }
+      .success-wa-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #25d366;
+        color: var(--white);
+        padding: 12px 24px;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-decoration: none;
+        box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+        transition: background var(--transition);
+      }
+      .success-wa-btn:hover {
+        background: #1ebe5d;
+      }
+      .close-success-btn {
+        background: none;
+        border: 1.5px solid var(--border);
+        padding: 10px 22px;
+        border-radius: 100px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text-soft);
+        transition: all var(--transition);
+      }
+      .close-success-btn:hover {
+        border-color: var(--blue);
+        color: var(--blue);
+      }
+
+      /* ===== TOAST ===== */
+      .toast {
+        position: fixed;
+        bottom: 90px;
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: var(--text);
+        color: var(--white);
+        padding: 10px 20px;
+        border-radius: 100px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        z-index: 600;
+        opacity: 0;
+        transition:
+          opacity 0.25s,
+          transform 0.25s;
+        white-space: nowrap;
+        pointer-events: none;
+      }
+      .toast.show {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      /* ===== RESPONSIVE ===== */
+      @media (min-width: 768px) {
+        .hero-inner {
+          max-width: 600px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header>
+      <div class="container">
+        <nav class="nav-inner" role="navigation" aria-label="Main navigation">
+          <a href="#" class="logo" aria-label="Bhagwati Plastic Process Home">
+            <div class="logo-icon" aria-hidden="true">♻️</div>
+            <div class="logo-text">
+              <span class="logo-name">Bhagwati Plastic Process</span>
+              <span class="logo-tag">Quality You Can Trust</span>
+            </div>
+          </a>
+          <div class="nav-actions">
+            <a href="#contact" class="nav-cta">📞 Contact Us</a>
+            
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Hero section">
+      <div class="container">
+        <div class="hero-inner">
+          <span class="hero-badge">📍 Ahmedabad, Gujarat</span>
+          <h1>Quality Plastic<br />Granules <span>You Can Trust</span></h1>
+          <p>
+            Premium PP granules in Natural, Brown & Milky variants — sourced and
+            supplied with consistency, competitive pricing, and trusted service
+            across Gujarat.
+          </p>
+          <div class="hero-actions">
+            <a href="#products" class="btn-primary">🛒 Browse Products</a>
+            <a href="#contact" class="btn-outline-white">📞 Get in Touch</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-lbl">Product Types</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">PP</span>
+              <span class="stat-lbl">Grade Granules</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">24hr</span>
+              <span class="stat-lbl">Response Time</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FILTERS ===== -->
+    <section class="filters-section" aria-label="Product category filters">
+      <div class="container">
+        <p class="filters-label">Filter by Category</p>
+        <div class="filter-btns" role="group" aria-label="Category filters">
+          <button class="filter-btn active" data-filter="all">
+            All Products
+          </button>
+          <button class="filter-btn" data-filter="PP">PP Granules</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    
+    <section class="products-section" id="products" aria-label="Products">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Products</h2>
+          <p>
+            High-quality plastic granules for industrial and manufacturing use
+          </p>
+        </div>
+        <div class="product-grid" id="productGrid" role="list">
+          <!-- Product 1: PP Natural Granules -->
+          <article class="product-card" data-category="PP" role="listitem">
+            <div class="product-img-wrap">
+              <img src="https://i.ibb.co/4RKdj97X/pp-Natural.jpg" alt="pp-Natural" border="0" />
+              <span class="product-cat-badge">PP</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">PP Natural Granules</h3>
+              <p class="product-desc">
+                High-quality natural polypropylene granules with excellent
+                strength and durability, ideal for injection molding and
+                industrial applications.
+              </p>
+              <div class="product-footer">
+                <div class="product-price">₹92<span>/kg</span></div>
+                
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2: PP Brown Granules -->
+          <article class="product-card" data-category="PP" role="listitem">
+            <div class="product-img-wrap">
+              <img src="https://i.ibb.co/RGDpMtH7/pp-Brown.jpg" alt="pp-Brown" border="0" />
+              <span class="product-cat-badge">PP</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">PP Brown Granules</h3>
+              <p class="product-desc">
+                Cost-effective brown polypropylene granules, suitable for
+                manufacturing durable plastic products with consistent
+                performance.
+              </p>
+              <div class="product-footer">
+                <div class="product-price">₹84<span>/kg</span></div>
+                
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3: PP Milky Granules -->
+          <article class="product-card" data-category="PP" role="listitem">
+            <div class="product-img-wrap">
+             <img src="https://i.ibb.co/tTnV6n9Y/pp-Milky.jpg" alt="pp-Milky" border="0" />
+              <span class="product-cat-badge">PP</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">PP Milky Granules</h3>
+              <p class="product-desc">
+                Economical milky PP granules with good flexibility and finish,
+                perfect for general-purpose plastic production.
+              </p>
+              <div class="product-footer">
+                <div class="product-price">₹69<span>/kg</span></div>
+                
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- ===== WHY US ===== -->
+    <section class="why-section" aria-label="Why choose us">
+      <div class="container">
+        <h2>Why Choose Bhagwati Plastic?</h2>
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon">⚙️</div>
+            <div class="why-title">Consistent Quality</div>
+            <p class="why-text">
+              Every batch is checked to ensure uniform grade and performance you
+              can rely on.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">💰</div>
+            <div class="why-title">Competitive Pricing</div>
+            <p class="why-text">
+              Direct supplier rates with no middlemen — better value for your
+              business.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">🚚</div>
+            <div class="why-title">Fast Delivery</div>
+            <p class="why-text">
+              Serving Ahmedabad and nearby Gujarat regions with prompt dispatch.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">🤝</div>
+            <div class="why-title">Trusted Service</div>
+            <p class="why-text">
+              We build long-term relationships — your satisfaction is our
+              priority.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact-section" id="contact" aria-label="Contact us">
+      <div class="container">
+        <div class="contact-inner">
+          <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>
+              Have questions about our products, pricing, or bulk orders? Reach
+              out — we're happy to help.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="c-icon">📍</div>
+                <div class="c-detail">
+                  <span class="c-label">Location</span>
+                  <span class="c-value">20, narnarayan estate, near rajiv Gandhi bhavan , memco, Ahmedabad- 382345</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="c-icon">📞</div>
+                <div class="c-detail">
+                  <span class="c-label">Phone / WhatsApp</span>
+                  <span class="c-value"
+                    ><a href="tel:+917359610072">+91 73596 10072</a></span
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="c-icon">✉️</div>
+                <div class="c-detail">
+                  <span class="c-label">Email</span>
+                  <span class="c-value"
+                    ><a href="mailto:mayankpatel5382@gmail.com"
+                      >mayankpatel5382@gmail.com</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wa-card">
+            <h3>💬 Chat on WhatsApp</h3>
+            <p>
+              For fastest response — send us a WhatsApp message and we'll get
+              back to you quickly.
+            </p>
+            <a
+              href="https://wa.me/917359610072?text=Hello%20Bhagwati%20Plastic%20Process%2C%20I%20am%20interested%20in%20your%20plastic%20granules."
+              class="wa-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="container">
+        <p>
+          <strong>Bhagwati Plastic Process</strong> · Ahmedabad, Gujarat, India
+        </p>
+        <p style="margin-top: 6px">
+          ♻️ Quality Plastic Granules You Can Trust ·
+          <a href="tel:+917359610072" style="color: rgba(255, 255, 255, 0.55)"
+            >+91 73596 10072</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- ===== FLOATING WHATSAPP ===== -->
+    <a
+      href="https://wa.me/917359610072?text=Hello%20Bhagwati%20Plastic%20Process%2C%20I%20want%20to%20enquire%20about%20plastic%20granules."
+      class="wa-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg
+        width="26"
+        height="26"
+        viewBox="0 0 24 24"
+        fill="white"
+        aria-hidden="true"
+      >
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        />
+      </svg>
+    </a>
+
+    <!-- ===== CART FAB ===== -->
+    
+
+    <!-- ===== ORDER MODAL ===== -->
+    
+
+    <!-- ===== TOAST ===== -->
+    
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+      (function () {
+        "use strict";
+
+        // ── STATE ──────────────────────────────────────────────────────────────────
+        let cart = [];
+
+        // ── ELEMENTS ───────────────────────────────────────────────────────────────
+        const overlay = document.getElementById("overlay");
+        const cartDrawer = document.getElementById("cartDrawer");
+        const cartBody = document.getElementById("cartBody");
+        const cartEmpty = document.getElementById("cartEmpty");
+        const cartFooter = document.getElementById("cartFooter");
+        const cartTotal = document.getElementById("cartTotal");
+        const cartNavBadge = document.getElementById("cartNavBadge");
+        const cartFabBadge = document.getElementById("cartFabBadge");
+        const orderModalOverlay = document.getElementById("orderModalOverlay");
+        const orderSummaryItems = document.getElementById("orderSummaryItems");
+        const orderSummaryTotal = document.getElementById("orderSummaryTotal");
+        const orderForm = document.getElementById("orderForm");
+        const submitOrderBtn = document.getElementById("submitOrderBtn");
+        const successScreen = document.getElementById("successScreen");
+        const toast = document.getElementById("toast");
+        let toastTimer;
+
+        // ── CART PERSISTENCE ───────────────────────────────────────────────────────
+        function saveCart() {
+          try {
+            localStorage.setItem("bpp_cart", JSON.stringify(cart));
+          } catch (e) {}
+        }
+        function loadCart() {
+          try {
+            const d = localStorage.getItem("bpp_cart");
+            if (d) cart = JSON.parse(d);
+          } catch (e) {
+            cart = [];
+          }
+        }
+
+        // ── BADGE UPDATE ───────────────────────────────────────────────────────────
+        function updateBadges() {
+          const total = cart.reduce((s, i) => s + i.qty, 0);
+          [cartNavBadge, cartFabBadge].forEach((el) => {
+            el.textContent = total;
+            el.classList.toggle("hidden", total === 0);
+          });
+          cartFabBadge.classList.toggle("pop", false);
+          if (total > 0) {
+            cartFabBadge.classList.add("pop");
+            setTimeout(() => cartFabBadge.classList.remove("pop"), 300);
+          }
+        }
+
+        // ── TOAST ──────────────────────────────────────────────────────────────────
+        function showToast(msg) {
+          clearTimeout(toastTimer);
+          toast.textContent = msg;
+          toast.classList.add("show");
+          toastTimer = setTimeout(() => toast.classList.remove("show"), 2500);
+        }
+
+        // ── CART RENDER ────────────────────────────────────────────────────────────
+        function renderCart() {
+          // Remove existing items (keep empty state element)
+          cartBody.querySelectorAll(".cart-item").forEach((el) => el.remove());
+
+          if (cart.length === 0) {
+            cartEmpty.style.display = "flex";
+            cartFooter.style.display = "none";
+            return;
+          }
+
+          cartEmpty.style.display = "none";
+          cartFooter.style.display = "flex";
+
+          let grand = 0;
+          cart.forEach((item) => {
+            const sub = item.price * item.qty;
+            grand += sub;
+
+            const el = document.createElement("div");
+            el.className = "cart-item";
+            el.dataset.id = item.id;
+            el.innerHTML = `
+        <img class="ci-img" src="${item.img}" alt="${item.name}" loading="lazy"
+             onerror="this.src='https://placehold.co/56x56/e8f1fb/1a3f6f?text=PP'" />
+        <div class="ci-info">
+          <span class="ci-name">${item.name}</span>
+          <span class="ci-price-unit">₹${item.price}/kg</span>
+          <span class="ci-subtotal">₹${sub.toLocaleString("en-IN")}</span>
+        </div>
+        <div class="ci-controls">
+          <div class="qty-row">
+            <button class="qty-btn" data-action="dec" data-id="${item.id}" aria-label="Decrease quantity">−</button>
+            <span class="qty-num" aria-label="Quantity: ${item.qty}">${item.qty}</span>
+            <button class="qty-btn" data-action="inc" data-id="${item.id}" aria-label="Increase quantity">+</button>
+          </div>
+          <button class="remove-btn" data-id="${item.id}" aria-label="Remove ${item.name}">Remove</button>
+        </div>
+      `;
+            cartBody.appendChild(el);
+          });
+
+          cartTotal.textContent = "₹" + grand.toLocaleString("en-IN");
+        }
+
+        // ── ADD TO CART ────────────────────────────────────────────────────────────
+        function addToCart(btn) {
+          const { id, name, price, img } = btn.dataset;
+          const existing = cart.find((i) => i.id === id);
+          if (existing) {
+            existing.qty++;
+            showToast(`${name} – quantity updated (${existing.qty}kg)`);
+          } else {
+            cart.push({ id, name, price: parseInt(price), img, qty: 1 });
+            showToast(`${name} added to cart ✓`);
+          }
+          saveCart();
+          updateBadges();
+          renderCart();
+
+          btn.textContent = "✓ Added";
+          btn.classList.add("added");
+          setTimeout(() => {
+            btn.textContent = "+ Add to Cart";
+            btn.classList.remove("added");
+          }, 1500);
+        }
+
+        // ── QTY CHANGE ─────────────────────────────────────────────────────────────
+        function changeQty(id, delta) {
+          const item = cart.find((i) => i.id === id);
+          if (!item) return;
+          item.qty += delta;
+          if (item.qty <= 0) {
+            cart = cart.filter((i) => i.id !== id);
+            showToast("Item removed from cart");
+          }
+          saveCart();
+          updateBadges();
+          renderCart();
+        }
+
+        function removeItem(id) {
+          cart = cart.filter((i) => i.id !== id);
+          showToast("Item removed from cart");
+          saveCart();
+          updateBadges();
+          renderCart();
+        }
+
+        // ── DRAWER OPEN/CLOSE ─────────────────────────────────────────────────────
+        function openCart() {
+          renderCart();
+          cartDrawer.classList.add("open");
+          overlay.classList.add("open");
+          overlay.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+        }
+        function closeCart() {
+          cartDrawer.classList.remove("open");
+          overlay.classList.remove("open");
+          overlay.setAttribute("aria-hidden", "true");
+          document.body.style.overflow = "";
+        }
+
+        // ── ORDER MODAL ───────────────────────────────────────────────────────────
+        function openOrderModal() {
+          // Build summary
+          orderSummaryItems.innerHTML = "";
+          let grand = 0;
+          cart.forEach((item) => {
+            const sub = item.price * item.qty;
+            grand += sub;
+            const row = document.createElement("div");
+            row.className = "osb-item";
+            row.innerHTML = `<span>${item.name} × ${item.qty}kg</span><span>₹${sub.toLocaleString("en-IN")}</span>`;
+            orderSummaryItems.appendChild(row);
+          });
+          orderSummaryTotal.textContent = "₹" + grand.toLocaleString("en-IN");
+
+          // Populate hidden fields
+          let summaryText = "ORDER SUMMARY\n" + "=".repeat(40) + "\n";
+          cart.forEach((item) => {
+            summaryText += `• ${item.name}: ${item.qty} kg @ ₹${item.price}/kg = ₹${(item.price * item.qty).toLocaleString("en-IN")}\n`;
+          });
+          summaryText += "=".repeat(40) + "\n";
+          summaryText += `GRAND TOTAL: ₹${grand.toLocaleString("en-IN")}\n`;
+          summaryText +=
+            "\n[This is an order collection request. The shop will contact the customer to confirm availability, pricing, and delivery details.]";
+
+          document.getElementById("hiddenOrderSummary").value = summaryText;
+          document.getElementById("hiddenGrandTotal").value =
+            "₹" + grand.toLocaleString("en-IN");
+          document.getElementById("emailSubject").value =
+            `New Order ₹${grand.toLocaleString("en-IN")} – Bhagwati Plastic Process`;
+
+          // Reset form
+          orderForm.reset();
+          orderForm.style.display = "flex";
+          orderForm.style.flexDirection = "column";
+          orderForm.style.gap = "16px";
+          successScreen.classList.remove("show");
+          submitOrderBtn.disabled = false;
+          submitOrderBtn.textContent = "✅ Confirm Order";
+
+          orderModalOverlay.classList.add("open");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeOrderModal() {
+          orderModalOverlay.classList.remove("open");
+          document.body.style.overflow = "";
+        }
+
+        // ── FORM SUBMIT ───────────────────────────────────────────────────────────
+        orderForm.addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          const name = document.getElementById("customerName").value.trim();
+          const phone = document.getElementById("customerPhone").value.trim();
+          const address = document
+            .getElementById("customerAddress")
+            .value.trim();
+
+          if (!name) {
+            showToast("Please enter your name");
+            document.getElementById("customerName").focus();
+            return;
+          }
+          if (!phone) {
+            showToast("Please enter your phone number");
+            document.getElementById("customerPhone").focus();
+            return;
+          }
+          if (!address) {
+            showToast("Please enter your delivery address");
+            document.getElementById("customerAddress").focus();
+            return;
+          }
+
+          // Set reply-to
+          document.getElementById("hiddenReplyTo").value =
+            phone + "@phone.bhagwatiplastic.com";
+
+          submitOrderBtn.disabled = true;
+          submitOrderBtn.textContent = "⏳ Sending...";
+
+          const formAction = orderForm.getAttribute("action");
+
+          // If form ID is still placeholder, show demo success
+          if (formAction.includes("YOUR_FORM_ID")) {
+            await new Promise((r) => setTimeout(r, 1000));
+            onOrderSuccess();
+            return;
+          }
+
+          try {
+            const formData = new FormData(orderForm);
+            const res = await fetch(formAction, {
+              method: "POST",
+              body: formData,
+              headers: { Accept: "application/json" },
+            });
+            if (res.ok) {
+              onOrderSuccess();
+            } else {
+              throw new Error("Form submission failed");
+            }
+          } catch (err) {
+            submitOrderBtn.disabled = false;
+            submitOrderBtn.textContent = "✅ Confirm Order";
+            showToast("❌ Something went wrong. Please try WhatsApp instead.");
+          }
+        });
+
+        function onOrderSuccess() {
+          // Hide form, show success
+          orderForm.style.display = "none";
+          successScreen.classList.add("show");
+
+          // Clear cart
+          cart = [];
+          saveCart();
+          updateBadges();
+          renderCart();
+        }
+
+        // ── FILTERS ───────────────────────────────────────────────────────────────
+        document.querySelectorAll(".filter-btn").forEach((btn) => {
+          btn.addEventListener("click", function () {
+            document
+              .querySelectorAll(".filter-btn")
+              .forEach((b) => b.classList.remove("active"));
+            this.classList.add("active");
+            const filter = this.dataset.filter;
+            document.querySelectorAll(".product-card").forEach((card) => {
+              if (filter === "all" || card.dataset.category === filter) {
+                card.classList.remove("hidden");
+              } else {
+                card.classList.add("hidden");
+              }
+            });
+          });
+        });
+
+        // ── EVENT DELEGATION ──────────────────────────────────────────────────────
+        document
+          .getElementById("productGrid")
+          .addEventListener("click", function (e) {
+            const btn = e.target.closest(".add-to-cart-btn");
+            if (btn) addToCart(btn);
+          });
+
+        cartBody.addEventListener("click", function (e) {
+          const qtyBtn = e.target.closest(".qty-btn");
+          if (qtyBtn) {
+            const { action, id } = qtyBtn.dataset;
+            changeQty(id, action === "inc" ? 1 : -1);
+            return;
+          }
+          const removeBtn = e.target.closest(".remove-btn");
+          if (removeBtn) {
+            removeItem(removeBtn.dataset.id);
+          }
+        });
+
+        // Cart open/close
+        ["cartNavBtn", "cartFab"].forEach((id) => {
+          document.getElementById(id).addEventListener("click", openCart);
+        });
+        document
+          .getElementById("cartClose")
+          .addEventListener("click", closeCart);
+        overlay.addEventListener("click", closeCart);
+
+        // Place order
+        document
+          .getElementById("placeOrderBtn")
+          .addEventListener("click", function () {
+            if (cart.length === 0) {
+              showToast("Your cart is empty!");
+              return;
+            }
+            closeCart();
+            setTimeout(openOrderModal, 220);
+          });
+
+        document
+          .getElementById("orderModalClose")
+          .addEventListener("click", closeOrderModal);
+        document
+          .getElementById("closeSuccessBtn")
+          .addEventListener("click", closeOrderModal);
+        orderModalOverlay.addEventListener("click", function (e) {
+          if (e.target === orderModalOverlay) closeOrderModal();
+        });
+
+        // Keyboard close
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") {
+            closeCart();
+            closeOrderModal();
+          }
+        });
+
+        
+
+        // ── INIT ──────────────────────────────────────────────────────────────────
+        loadCart();
+        updateBadges();
+      })();
+    </script>
+  </body>
+</html>
