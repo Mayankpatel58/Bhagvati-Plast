@@ -367,6 +367,28 @@
       }
 
       /* ===== PRODUCTS ===== */
+      .contact-stock-btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 14px;
+        background-color: #ff6600;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.3s ease;
+      }
+
+      .contact-stock-btn:hover {
+        background-color: #e65c00;
+      }
+
+      .product-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
       .products-section {
         padding: 36px 0 60px;
         background: var(--off-white);
@@ -1283,7 +1305,6 @@
           </a>
           <div class="nav-actions">
             <a href="#contact" class="nav-cta">📞 Contact Us</a>
-            
           </div>
         </nav>
       </div>
@@ -1336,7 +1357,7 @@
     </section>
 
     <!-- ===== PRODUCTS ===== -->
-    
+
     <section class="products-section" id="products" aria-label="Products">
       <div class="container">
         <div class="section-head">
@@ -1345,23 +1366,30 @@
             High-quality plastic granules for industrial and manufacturing use
           </p>
         </div>
+
         <div class="product-grid" id="productGrid" role="list">
           <!-- Product 1: PP Natural Granules -->
           <article class="product-card" data-category="PP" role="listitem">
             <div class="product-img-wrap">
-              <img src="https://i.ibb.co/4RKdj97X/pp-Natural.jpg" alt="pp-Natural" border="0" />
+              <img
+                src="https://i.ibb.co/4RKdj97X/pp-Natural.jpg"
+                alt="pp-Natural"
+                border="0"
+              />
               <span class="product-cat-badge">PP</span>
             </div>
             <div class="product-body">
               <h3 class="product-name">PP Natural Granules</h3>
               <p class="product-desc">
-                High-quality natural polypropylene granules with excellent
-                strength and durability, ideal for injection molding and
-                industrial applications.
+                PP Natural Reprocessed Granules for injection moulding &
+                household products. Clean, consistent MFI. Bulk supply
+                available.
               </p>
               <div class="product-footer">
                 <div class="product-price">₹92<span>/kg</span></div>
-                
+                <a href="#contact" class="contact-stock-btn">
+                  📞 Contact for Latest Price & Stock
+                </a>
               </div>
             </div>
           </article>
@@ -1369,19 +1397,25 @@
           <!-- Product 2: PP Brown Granules -->
           <article class="product-card" data-category="PP" role="listitem">
             <div class="product-img-wrap">
-              <img src="https://i.ibb.co/RGDpMtH7/pp-Brown.jpg" alt="pp-Brown" border="0" />
+              <img
+                src="https://i.ibb.co/RGDpMtH7/pp-Brown.jpg"
+                alt="pp-Brown"
+                border="0"
+              />
               <span class="product-cat-badge">PP</span>
             </div>
             <div class="product-body">
               <h3 class="product-name">PP Brown Granules</h3>
               <p class="product-desc">
-                Cost-effective brown polypropylene granules, suitable for
-                manufacturing durable plastic products with consistent
-                performance.
+                PP Brown Reprocessed Granules for magnets, door catchers &
+                hardware products. Made from transparent natural PP. Bulk supply
+                available.
               </p>
               <div class="product-footer">
-                <div class="product-price">₹84<span>/kg</span></div>
-                
+                <div class="product-price">₹85<span>/kg</span></div>
+                <a href="#contact" class="contact-stock-btn">
+                  📞 Contact for Latest Price & Stock
+                </a>
               </div>
             </div>
           </article>
@@ -1389,26 +1423,31 @@
           <!-- Product 3: PP Milky Granules -->
           <article class="product-card" data-category="PP" role="listitem">
             <div class="product-img-wrap">
-             <img src="https://i.ibb.co/tTnV6n9Y/pp-Milky.jpg" alt="pp-Milky" border="0" />
+              <img
+                src="https://i.ibb.co/tTnV6n9Y/pp-Milky.jpg"
+                alt="pp-Milky"
+                border="0"
+              />
               <span class="product-cat-badge">PP</span>
             </div>
             <div class="product-body">
               <h3 class="product-name">PP Milky Granules</h3>
               <p class="product-desc">
-                Economical milky PP granules with good flexibility and finish,
-                perfect for general-purpose plastic production.
+                PP Milky Reprocessed Granules with 10-15% filler for injection
+                moulding. Great rigidity & finish for household products &
+                containers. Bulk supply available.
               </p>
               <div class="product-footer">
-                <div class="product-price">₹69<span>/kg</span></div>
-                
+                <div class="product-price">₹80<span>/kg</span></div>
+                <a href="#contact" class="contact-stock-btn">
+                  📞 Contact for Latest Price & Stock
+                </a>
               </div>
             </div>
           </article>
         </div>
       </div>
     </section>
-
-    
 
     <!-- ===== WHY US ===== -->
     <section class="why-section" aria-label="Why choose us">
@@ -1446,6 +1485,14 @@
               priority.
             </p>
           </div>
+          <div class="why-card">
+            <div class="why-icon">🎯</div>
+            <div class="why-title">Custom Grade on Demand</div>
+            <p class="why-text">
+              Need a specific MFI or filler percentage? We customize granule
+              grades as per your requirements.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -1465,7 +1512,10 @@
                 <div class="c-icon">📍</div>
                 <div class="c-detail">
                   <span class="c-label">Location</span>
-                  <span class="c-value">20, narnarayan estate, near rajiv Gandhi bhavan , memco, Ahmedabad- 382345</span>
+                  <span class="c-value"
+                    >20, narnarayan estate, near rajiv Gandhi bhavan , memco,
+                    Ahmedabad- 382345</span
+                  >
                 </div>
               </div>
               <div class="contact-item">
@@ -1482,9 +1532,9 @@
                 <div class="c-detail">
                   <span class="c-label">Email</span>
                   <span class="c-value"
-                    ><a href="mailto:mayankpatel5382@gmail.com?subject=Enquiry – Bhagwati Plastic Process">
-  mayankpatel5382@gmail.com
-</a></span
+                    ><a href="mailto:mayankpatel5382@gmail.com"
+                      >mayankpatel5382@gmail.com</a
+                    ></span
                   >
                 </div>
               </div>
@@ -1559,13 +1609,10 @@
     </a>
 
     <!-- ===== CART FAB ===== -->
-    
 
     <!-- ===== ORDER MODAL ===== -->
-    
 
     <!-- ===== TOAST ===== -->
-    
 
     <!-- ===== JAVASCRIPT ===== -->
     <script>
@@ -1934,8 +1981,6 @@
             closeOrderModal();
           }
         });
-
-        
 
         // ── INIT ──────────────────────────────────────────────────────────────────
         loadCart();
